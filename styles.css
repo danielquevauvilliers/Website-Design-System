@@ -1,0 +1,31 @@
+section {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 0;
+}
+
+.light, .dark {
+  text-align: center;  
+}
+
+.outsidecontainer {
+  text-align: center;
+  width: 49%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.colorbox {
+  display: inline-block;
+  border: 1px solid red;
+  box-sizing: border-box;
+  height: 60px;
+  width: 24%;
+  min-width: 60px;
+}
+
+h3, h4 {
+  text-align: center;
+  margin: 5px auto;
+}
