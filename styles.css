@@ -34,6 +34,10 @@ h1, h2 {
   padding: 5px;
 }
 
+h3 {
+  line-height: 32px;
+}
+
 .colors h3, h4 {
   text-align: center;
   padding: 5px;
@@ -121,6 +125,41 @@ h1, h2 {
 }
 
 .fontbox {
-  width: 50%;
+  width: 49%;
   display: inline-block;
+  padding: 5px;
+  box-sizing: border-box;
+  min-height: 210px;
+}
+
+.catamaran {
+  font-family: catamaran;
+}
+
+.openSans {
+  font-family: "open sans";
+}
+
+.montserrat {
+  font-family: montserrat;
+}
+
+.ubuntu {
+  font-family: ubuntu;
+}
+
+.fontbox p {
+  line-height: 27px;
+}
+
+.fontbox .p2 {
+  font-weight: bold;
+}
+
+.fontbox .p3 {
+  font-style: italic;
+}
+
+.fontbox .p4 {
+  text-transform: uppercase;
 }
