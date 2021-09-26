@@ -163,3 +163,99 @@ h3 {
 .fontbox .p4 {
   text-transform: uppercase;
 }
+
+.textStyles {
+  padding: 5px;
+}
+
+.exampleLight, .exampleDark {
+  width: 50%;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px;
+}
+
+.exampleLight .mainHeading h1 {
+  font-weight: 800;
+  font-size: 32px;
+  font-family: "open sans";
+  background-color: beige;
+  color: DarkSlateGray;
+}
+
+.exampleLight .subheading2 h2 {
+  font-weight: 500;
+  font-size: 28px;
+  font-family: ubuntu;
+  background-color: beige;
+  color: DarkSlateGray;
+}
+
+.exampleLight .subheading3 h3 {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: montserrat;
+  background-color: lightcyan;
+  color: black;
+}
+
+.exampleLight .paragraph p {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "open sans";
+  background-color: honeydew;
+  color: navy;
+}
+
+.exampleLight .caption p {
+  font-weight: 300;
+  font-size: 15px;
+  font-family: catamaran;
+  font-style: italic;
+  background-color: honeydew;
+  color: navy;
+}
+
+.exampleDark .mainHeading h1 {
+  font-weight: 800;
+  font-size: 32px;
+  font-family: "open sans";
+  background-color: dimgray;
+  color: linen;
+}
+
+.exampleDark .subheading2 h2 {
+  font-weight: 500;
+  font-size: 28px;
+  font-family: ubuntu;
+  background-color: dimgray;
+  color: linen;
+}
+
+.exampleDark .subheading3 h3 {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: montserrat;
+  background-color: darkcyan;
+  color: ivory;
+}
+
+.exampleDark .paragraph p {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "open sans";
+  background-color: saddlebrown;
+  color: white;
+}
+
+.exampleDark .caption p {
+  font-weight: 300;
+  font-size: 15px;
+  font-family: catamaran;
+  font-style: italic;
+  background-color: saddlebrown;
+  color: white;
+}
+.tables {
+  padding: 5px;
+}
