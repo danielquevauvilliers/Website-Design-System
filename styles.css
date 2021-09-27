@@ -28,6 +28,7 @@ section {
 
 p {
   margin: 10px auto;
+  padding: 5px;
 }
 
 h1, h2 {
@@ -36,6 +37,7 @@ h1, h2 {
 
 h3 {
   line-height: 32px;
+  padding: 5px;
 }
 
 .colors h3, h4 {
@@ -125,15 +127,24 @@ h3 {
 }
 
 .fontbox {
-  width: 49%;
+  width: 50%;
   display: inline-block;
-  padding: 5px;
+  padding: 1px;
   box-sizing: border-box;
   min-height: 210px;
 }
 
+.outerFontbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content:left;
+  flex-wrap: wrap;
+  padding: 1px;
+}
+
 .catamaran {
   font-family: catamaran;
+  font-size: large;
 }
 
 .openSans {
@@ -149,7 +160,7 @@ h3 {
 }
 
 .fontbox p {
-  line-height: 27px;
+  line-height: 20px;
 }
 
 .fontbox .p2 {
